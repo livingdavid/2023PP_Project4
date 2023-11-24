@@ -9,7 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcaa681b-114f-4d42-a32d-530f7aa60249" name="Changes" comment="" />
+    <list default="true" id="fcaa681b-114f-4d42-a32d-530f7aa60249" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jspboard/board/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jspboard/board/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jspboard/board/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jspboard/board/BoardVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addpostform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/posts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/posts.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,8 +70,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\livin\IdeaProjects\JSPBoard\src\main\java\com\example\jspboard" />
       <recent name="C:\Users\livin\IdeaProjects\JSPBoard\src\main\webapp" />
+      <recent name="C:\Users\livin\IdeaProjects\JSPBoard\src\main\java\com\example\jspboard" />
       <recent name="C:\Users\livin\IdeaProjects\JSPBoard\src\main\java\com\example\jspboard\board" />
     </key>
   </component>
@@ -168,7 +176,7 @@
       <workItem from="1700530319455" duration="877000" />
       <workItem from="1700531217830" duration="715000" />
       <workItem from="1700781811120" duration="6256000" />
-      <workItem from="1700828594908" duration="1136000" />
+      <workItem from="1700828594908" duration="14124000" />
     </task>
     <task id="LOCAL-00001" summary="Middle">
       <option name="closed" value="true" />

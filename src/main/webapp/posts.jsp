@@ -37,14 +37,9 @@
 </head>
 <body>
 <h1>자유게시판</h1>
-<%
-	BoardDAO boardDAO = new BoardDAO();
-	List<BoardVO> list = boardDAO.getBoardList();
-	request.setAttribute("list",list);
-%>
 <table id="list" width="90%">
 <tr>
-	<th>Id</th>
+	<th>ID</th>
 	<th>Category</th>
 	<th>Title</th>
 	<th>Writer</th>
@@ -53,19 +48,25 @@
 	<th>Edit</th>
 	<th>Delete</th>
 </tr>
-<c:forEach items="${list}" var="u">
+	<%
+		BoardDAO boardDAO = new BoardDAO();
+		List<BoardVO> list = boardDAO.getBoardList();
+		request.setAttribute("list",list);
+	%>
+
+	<c:forEach items="${list}" var="u">
 	<tr>
 		<td>${u.getSeq()}</td>
 		<td>${u.getCategory()}</td>
-		<td>${u.getTitle()}</td>
+		<td><a href="view.jsp?id=${u.getSeq()}">${u.getTitle()}</a></td>
 		<td>${u.getWriter()}</td>
 		<td>${u.getContent()}</td>
 		<td>${u.getRegdate()}</td>
 		<td><a href="editform.jsp?id=${u.getSeq()}">Edit</a></td>
 		<td><a href="javascript:delete_ok('${u.getSeq()}')">Delete</a></td>
 	</tr>
-</c:forEach>
+	</c:forEach>
 </table>
-<br/><a href="addpostform.jsp">Add New Post</a>
+<br/><a href="addpostform.jsp"><input type="button" value="ADD"/></a>
 </body>
 </html>
